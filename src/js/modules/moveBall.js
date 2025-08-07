@@ -1,5 +1,5 @@
 import { testEdgeCollision } from "./testEdgeCollision.js";
-import { testObstacleCollision } from "./testObstacleCollision";
+import { testObstacleCollision } from "./testObstacleCollision.js";
 
 export function moveBall(e, ball, position) {
   if (e.code === "ArrowLeft") {

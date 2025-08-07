@@ -1,5 +1,5 @@
 export function testObstacleCollision() {
-  const ballRect = ball.getboundingClientRect();
+  const ballRect = ball.getBoundingClientRect();
   const obstacles = document.getElementsByClassName("obstacle");
   for (let i = 0; i < obstacles.length; i++) {
     const obstacleRect = obstacles[i].getBoundingClientRect();
